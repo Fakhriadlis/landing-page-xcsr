@@ -566,7 +566,7 @@ footer{padding:30px 20px 110px;text-align:center;color:#7d7a70;font-size:13px;bo
           <button class="vtab" role="tab" aria-selected="false" data-v="1">Super Fast</button>
           <button class="vtab" role="tab" aria-selected="false" data-v="2">Ver 3.0</button>
         </div>
-        <div class="vinfo" id="vinfo" aria-live="polite"><b>XCSR Turbo R</b><span>Bodi hijau, untuk harian & touring</span><div class="vp">Rp1.750.000</div></div>
+        <div class="vinfo" id="vinfo" aria-live="polite"><b>XCSR Turbo R</b><span>Bodi hijau, untuk harian & touring</span></div>
       </div>
       <div>
         <div class="feats">
@@ -578,15 +578,15 @@ footer{padding:30px 20px 110px;text-align:center;color:#7d7a70;font-size:13px;bo
     </div>
   </div>
 </section>
-<div class="bridge"><a class="bb" href="#aksesori"><span>Aman buat aksesori?</span><i class="ar"><svg><use href="#down"/></svg></i></a></div>
+<div class="bridge"><a class="bb" href="#aksesori"><span>Aman buat aksesoris?</span><i class="ar"><svg><use href="#down"/></svg></i></a></div>
 
 <!-- ===================== 6 · INFO: AKSESORI ===================== -->
 <section id="aksesori">
   <div class="wrap acc-grid">
     <div>
-      <p class="kick" data-rv>Buat yang hobi nambah aksesori</p>
-      <h2 data-rv style="--d:80ms">Pasang banyak aksesori? <span class="lime">Aman.</span></h2>
-      <p class="sub" data-rv style="--d:160ms">Lampu tembak, charger, intercom, GPS. Makin banyak aksesori, makin besar kebutuhan listriknya. XCSR bantu kelistrikan tetap stabil.</p>
+      <p class="kick" data-rv>Buat yang hobi nambah aksesoris</p>
+      <h2 data-rv style="--d:80ms">Pasang banyak aksesoris? <span class="lime">Aman.</span></h2>
+      <p class="sub" data-rv style="--d:160ms">Lampu tembak, charger, intercom, GPS. Makin banyak aksesoris, makin besar kebutuhan listriknya. XCSR bantu kelistrikan tetap stabil.</p>
     </div>
     <div class="acc" id="acc">
       <svg viewBox="0 0 600 600" aria-hidden="true">
@@ -624,7 +624,7 @@ footer{padding:30px 20px 110px;text-align:center;color:#7d7a70;font-size:13px;bo
       <div class="brow" style="--i:0"><span class="bx no">Tarikan berat saat nanjak</span><span class="bi"><svg><use href="#gauge"/></svg></span><span class="bx yes">Akselerasi lebih responsif</span></div>
       <div class="brow" style="--i:1"><span class="bx no">Starter berat, aki cepat tekor</span><span class="bi"><svg><use href="#batt"/></svg></span><span class="bx yes">Starter enteng, aki awet</span></div>
       <div class="brow" style="--i:2"><span class="bx no">Lampu kurang terang</span><span class="bi"><svg><use href="#bulb"/></svg></span><span class="bx yes">Lampu lebih terang</span></div>
-      <div class="brow" style="--i:3"><span class="bx no">Tambah aksesori, kelistrikan terbebani</span><span class="bi"><svg><use href="#plug"/></svg></span><span class="bx yes">Tambah aksesori, aki tetap aman</span></div>
+      <div class="brow" style="--i:3"><span class="bx no">Tambah aksesoris, kelistrikan terbebani</span><span class="bi"><svg><use href="#plug"/></svg></span><span class="bx yes">Tambah aksesoris, aki tetap aman</span></div>
     </div>
   </div>
 </section>
@@ -889,11 +889,7 @@ var WA_NUMBER = "6281234567890";
   layoutFan();
 
   /* ---------- 4 · Apa itu XCSR: 3 tipe bergantian (otomatis, berhenti saat disentuh) ---------- */
-  var VAR = [
-    { n: 'XCSR Turbo R', d: 'Bodi hijau, untuk harian & touring', p: 'Rp1.750.000', c: '141,224,0' },
-    { n: 'XCSR Super Fast', d: 'Bodi hitam dengan aksen biru', p: 'Tanya harga ke admin', c: '40,170,255' },
-    { n: 'XCSR Ver 3.0', d: 'Xtreme Charging System versi 3.0', p: 'Tanya harga ke admin', c: '215,220,230' }
-  ];
+
   var pvs = $$('.pv', stage), vinfo = $('#vinfo'), tabs = $$('.vtab'), cur = 0, auto = 0;
   function showVar(v) {
     if (v === cur) return;
